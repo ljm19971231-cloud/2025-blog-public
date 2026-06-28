@@ -38,6 +38,7 @@ const htmlStyle = {
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
 	return (
 		<html lang='en' suppressHydrationWarning style={htmlStyle}>
+			<meta name="partnerboostverifycode" content="32dc01246faccb7f5b3cad5016dd5033" />
 			<Head />
 
 			<body>
